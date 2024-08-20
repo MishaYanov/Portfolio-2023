@@ -60,7 +60,6 @@ const Contact = () => {
       })
       .catch((err) => {
         setLoading(false);
-        console.log(err);
         setCurrentAnimation("idle");
         showAlert({show: true, type: 'danger', text: 'Failed to send message!'});
         setTimeout(() => {

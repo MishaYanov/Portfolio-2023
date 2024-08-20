@@ -11,12 +11,6 @@ const Alien = (props:any) => {
     // @ts-ignore
     const {scene, animations} = useGLTF(alienScene);
     const { actions } = useAnimations(animations, alienRef);
-
-  
-    useEffect(()=>{
-        console.log(actions)
-    //   actions["Take 001"]!.play();
-    },[])
   
     useFrame(({clock, camera}, delta)=>{
       if (alienRef.current.position.x > camera.position.x + 8) {

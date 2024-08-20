@@ -30,7 +30,7 @@ const About = () => {
         <div className="mt-16 flex flex-wrap gap-12">
           {skills.map((skill, index) => {
             return (
-              <div className="block-container w-20 h-20">
+              <div className="block-container w-20 h-20" key={index}>
                 <div className="btn-back rounded-xl" />
                 <div className="btn-front rounded-xl flex justify-center items-center">
                   <img
@@ -59,8 +59,8 @@ const About = () => {
               <VerticalTimelineElement
                 key={experience.company_name}
                 date={experience.date}
-                icon={<div className="flex justify-center items-center w-full h-full">
-                  <img src={experience.icon} alt={experience.company_name} className="w-[60%]] h-[60%] object-contain" />
+                icon={<div className="flex justify-center items-center w-full h-full" key={index}>
+                  <img src={experience.icon} alt={experience.company_name} className="w-[60%]] h-[60%] object-contain" key={index}/>
                 </div>}
                 contentStyle={{
                   borderBottom: '8px',

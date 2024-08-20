@@ -36,6 +36,7 @@ import python from './python.svg';
 import vite from './vite.svg';
 import rust from './rust.svg';
 import nest from './nestjs.svg';
+import java from './java.png';
 
 export {
     css,
@@ -75,5 +76,6 @@ export {
     docker,
     python,
     vite, 
-    nest
+    nest, 
+    java
 }

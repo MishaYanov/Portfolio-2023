@@ -25,6 +25,7 @@ import {
     rust,
     vite,
     nest,
+    java
 } from "../assets/icons";
 
 export const skills = [
@@ -142,10 +143,28 @@ export const skills = [
         imageUrl: nest,
         name: "NestJS",
         type: "Backend",
+    }, 
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
     }
 ];
 
 export const experiences = [
+    {
+        title: "Full Stack Developer",
+        company_name: "Browsi",
+        icon: browsi,
+        iconBg: "#F9D3BC",
+        date: "2024 - 2024",
+        points: [
+            "Developed and maintained web applications using Angular and Play Framework.",
+            "Build unit and E2E tests (in Playwright) to ensure code quality and application reliability.",
+            "Participated in agile sprints and contributed to the continuous improvement and development processes.",
+            "Worked with various tools and services such as AWS, and Jenkins. Auth0 to provide the best solutions for our applications."
+        ],
+    },
     {
         title: "Support Engineer Tier 2",
         company_name: "Browsi",
@@ -171,17 +190,16 @@ export const experiences = [
         ],
     },
     {
-        title: "Indie Game Dev",
-        company_name: "",
-        icon: ff,
-        iconBg: "#c62a41",
-        date: "2021 - Present",
-        points: [
-            "",
-            "",
-            ""
-        ],
-    }
+        "title": "Indie Game Developer",
+        "company_name": "",
+        "iconBg": "#c62a41",
+        "date": "2021 - Present",
+        "points": [
+            "Implemented industry best practices in Unity, ensuring optimized performance and clean, maintainable code for various game projects.",
+            "Developed custom shaders and animations to enhance visual fidelity, providing unique and engaging visual effects that set my games apart.",
+            "Designed and built multiple game demos, including both top-down and first-person shooter (FPS) genres, showcasing a wide range of gameplay mechanics and technical skills."
+        ]
+    }    
 ];
 
 export const socialLinks = [
@@ -211,14 +229,14 @@ export const projects = [
         technologies: ['Angular', 'NestJs', 'TypeScript', 'Postgres', 'Docker', 'Prisma'],
         link: 'https://github.com/MishaYanov/AlfaStore',
     },
-    // {
-    //     iconUrl: "",
-    //     theme: 'btn-back-green',
-    //     name: 'Extension Skeleton',
-    //     description: '',
-    //     technologies: ["Unity", "C#"],
-    //     link: ''
-    // },
+    {
+        iconUrl: "",
+        theme: 'btn-back-green',
+        name: 'Extension Skeleton',
+        description: 'A chrome extension inital setup with vite and react, using modular design, content and background scripts, and popup window, which compile and build with vite',
+        technologies: ["Unity", "C#"],
+        link: 'https://www.npmjs.com/package/ext-skeleton'
+    },
     {
         iconUrl: "",
         theme: 'btn-back-yellow',
@@ -227,13 +245,13 @@ export const projects = [
         technologies: ["Unity", 'C#'],
         link: ''
     },
-    {
-        iconUrl: "",
-        theme: 'btn-back-pink',
-        name: '',
-        description: '',
-        technologies: ["python", ],
-        link: ''
-    }
+    // {
+    //     iconUrl: "",
+    //     theme: 'btn-back-pink',
+    //     name: '',
+    //     description: '',
+    //     technologies: ["python", ],
+    //     link: ''
+    // }
     
 ];

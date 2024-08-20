@@ -16,7 +16,6 @@ export const Sky = ({ isRotating }: any) => {
       skyRef.current.rotation.z += 0.0001 * delta;
     }
   });
-  console.log(sky)
 
   const adjustSkyForScreenSize = () => {
     let screenScale:any = [0,0,0],

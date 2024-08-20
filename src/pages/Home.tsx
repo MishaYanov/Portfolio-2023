@@ -1,4 +1,4 @@
-import { Canvas, useFrame, useThree } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { Loader } from "../components";
 import Island from "../models/Island";
@@ -10,8 +10,6 @@ import { soundoff, soundon } from "../assets/icons";
 import Spaceship from "../models/Spaceship";
 import Alien from "../models/Alien";
 import { adjust3dScreenSize } from "../logic/3dScreenSizeParser";
-import { useSpring } from "@react-spring/three";
-import * as THREE from 'three';
 import CameraManipulator from "../components/CameraManipulator";
 
 

@@ -14,10 +14,13 @@
     "@react-three/drei": "^9.92.7",
     "@react-three/fiber": "^8.15.12",
     "@types/three": "^0.160.0",
+    "build": "^0.1.4",
+    "npm": "^10.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "run": "^1.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

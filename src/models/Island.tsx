@@ -69,7 +69,6 @@ const Island = ({
   };
 
   const handleKeyDown = (e: any) => {
-    console.log(e.key);
     if (e.key === "ArrowLeft") {
       if (!isRotating) setIsRotating(true);
       islandRef.current.rotation.y += 0.005 * Math.PI;
@@ -91,7 +90,6 @@ const Island = ({
 
   useFrame(() => {
     if (!islandRef.current) return;
-    console.log(actions)
     actions["Scene"]!.play();
     if (!isRotating) {
       // Apply damping factor
